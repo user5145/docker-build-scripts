@@ -1,6 +1,10 @@
 /build32/*
 /build/*
 /src/*
+*.tar
+*.tar.*
+*.zip
+*.7z
 
 !/build32/32_bit_build
 !/build/64_bit_build
