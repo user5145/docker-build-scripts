@@ -13,7 +13,7 @@ docker run --rm -w /usr/src/myapp/build32 \
 -e CPPFLAGS="                   $FLAGS" \
 -e CFLAGS="                     $FLAGS" \
 \
-debian:unstable                 /bin/bash -c \
+ubuntu:18.10                    /bin/bash -c \
 "dpkg --add-architecture        i386; \
 apt-get -y                      update; \
 apt-get -y                      install \

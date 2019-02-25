@@ -12,7 +12,7 @@ docker run --rm -w /usr/src/myapp/build \
 -e CPPFLAGS="                    $FLAGS" \
 -e CFLAGS="                      $FLAGS" \
 \
-debian:unstable                 /bin/bash -c \
+ubuntu:18.10                    /bin/bash -c \
 "apt-get -y                     update; \
 apt-get -y                      install \
 g++                             gcc \
