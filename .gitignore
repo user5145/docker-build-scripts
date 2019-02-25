@@ -1,3 +1,7 @@
-/build32
-/build
-/src
+/build32/*
+/build/*
+/src/*
+
+!/build32/32_bit_build
+!/build/64_bit_build
+!/src/sources
