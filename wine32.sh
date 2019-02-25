@@ -39,7 +39,7 @@ libgnutls28-dev:i386; \
 \
 ../src/configure                --with-alsa \
 --with-capi                     --with-cms \
---with-coreaudio                --with-cups \
+--without-coreaudio             --with-cups \
 --with-curses                   --with-dbus \
 --with-fontconfig               --with-freetype \
 --with-gettext                  --without-gettextpo \
